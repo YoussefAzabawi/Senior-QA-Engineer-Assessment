@@ -1,0 +1,16 @@
+{
+  "products": [
+    { "name": "Build your own cheap computer", "quantity": 1 },
+    { "name": "14.1-inch Laptop", "quantity": 1 }
+  ],
+  "checkout": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "country": "United States",
+    "city": "New York",
+    "address1": "123 QA Street",
+    "zipPostalCode": "10001",
+    "phoneNumber": "1234567890"
+  }
+}
