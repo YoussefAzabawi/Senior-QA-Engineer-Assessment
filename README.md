@@ -110,34 +110,3 @@ Open Allure report:
 ```bash
 npm run allure:open
 ```
-
-## GitHub Delivery Steps
-
-1. Initialize git repository (if not initialized):
-
-```bash
-git init
-```
-
-2. Commit project:
-
-```bash
-git add .
-git commit -m "Add Playwright TS POM automation for multi-product checkout"
-```
-
-3. Create GitHub repository and push:
-
-```bash
-git branch -M main
-git remote add origin <YOUR_GITHUB_REPO_URL>
-git push -u origin main
-```
-
-4. Share repository URL as deliverable.
-
-## Security Notes
-
-- Keep secrets only in environment variables.
-- Never hardcode credentials or tokens in source code.
-- `.env` is ignored via `.gitignore`.
